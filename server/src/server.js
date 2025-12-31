@@ -3,7 +3,7 @@ const app = express();
 const port = 3000;
 
 const connectDB = require('./config/connectDB');
-const routes = require('./routers');
+const routes = require('./routes');
 
 const bodyParser = require('body-parser');
 
